@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root {
+    --main-bg-color: rgb(245, 119, 140);
+    --font-1:'Roboto Slab', serif;
+    --font-2:'Hina Mincho', serif;
+    --font-3:'Dancing Script', cursive;
+}
+/* Fonts used  */
+.font-1{
+    font-family: var(--font-1);
+}
+.font-2{
+    font-family: var(--font-2);
+}
+.font-3{
+    font-family: var(--font-3);
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.form-input{
+    padding: 3px 5px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0 15px;
+    font-family: var(--font-3);
+}
+.btn{
+    padding: 3px 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: var(--font-3);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: beige;
+    background-color: var(--main-bg-color);
+    transition: all 0.3s ease-in-out;
+}

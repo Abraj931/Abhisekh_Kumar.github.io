@@ -1,0 +1,15 @@
+.about{
+    font-family: var(--font-1);
+    height: 400px;
+    /* background-color: rgb(117, 104, 129); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about img{
+    height: 200px;
+    margin-right: 25px;
+    border-radius: 50px;
+}

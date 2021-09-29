@@ -1,0 +1,26 @@
+.contact-content {
+    height: 100vh;
+    /* background-color: rgb(228, 144, 144); */
+    margin: 10px 15px;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    
+}
+.form-box input, textarea{
+    width: 30vw;
+    padding: 6px 4px;
+    margin: 8px;
+    font-size: 10px;
+    font-family: Var(--font-1);
+    border-radius: 10px;
+    border-color: rgb(228, 144, 144);
+}
+.btn2{
+    width: 15vw;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border-color: rgb(228, 144, 144);
+    font-family: Var(--font-1);
+}
