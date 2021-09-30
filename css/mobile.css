@@ -23,14 +23,26 @@
         width: 50%;
     }
     .form-box input, textarea{
-        width: 66vw;
+        width: 60vw;
+    }
+    .blogspot-content{
+        width: 60vw;
+        flex-direction: column;
     }
 
     .about{
+        flex-direction: column;
         height: 100%;
+        width: 60vw;
+        margin-top: 15vw;
+        margin-bottom: 15vw;
+    }
+    .about img{
+        margin-bottom: 15vw;
     }
 
     .footer{
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
     }
 }
